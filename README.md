@@ -17,7 +17,7 @@ HTML과 CSS는 웹사이트를 만드는 데 있어 가장 기본적인 요소�
 메인 페이지, 이용약관, 회원가입, 로그인화면
 
 ### 메인 화면
-![menu_sht_v4](https://user-images.githubusercontent.com/3771788/229040036-b38b6c87-64ca-461a-ac9e-78fdcae7ddad.jpg)
+![image](https://github.com/youngminkk/project/assets/146568255/d42e5e2c-eac9-4cdf-a1b8-71dec00c23c5)
 
 ### 이용약관 화면
 ![image](https://github.com/youngminkk/project/assets/146568255/c2d0b026-ac7c-4ce8-a91f-b17687f8a885)
