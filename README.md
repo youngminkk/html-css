@@ -3,8 +3,6 @@
 ![html](https://img.shields.io/badge/html-#E34F26?style=for-the-badge&logo=html&logoColor=black)
 ![css](https://img.shields.io/badge/css-#1572B6?style=for-the-badge&logo=css&logoColor=blue)
 
-![image](https://github.com/youngminkk/project/assets/146568255/6b618296-dba5-4a2a-8c5e-45156825e9bd)
-
 ## 프로젝트 소개
 'To Make Light'는 HTML과 CSS로만 만든 사이트입니다.
 이 웹사이트는 기본적인 웹사이트의 구조와 웹페이지 디자인에 대한 연습하기 위해 만들어졌습니다.
