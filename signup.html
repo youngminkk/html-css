@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>회원가입</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./style.css'>
+    <link rel="icon" type="image/svg" href="./image/pen-combination-svgrepo-com.svg">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script src='common.js'></script>
+</head>
+
+<body>
+    <div class="full wrapper">
+        <header class="header">
+            <div class="innerheader">
+                <div class="innerheader1">
+                    <nav class="nav">
+                        <ul>
+                            <li><a href="index.html" class="menuBtn">HOME</a></li>
+                            <li><a href="#" class="menuBtn">NOTICE</a></li>
+                            <li><a href="#" class="menuBtn">BOARD</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="innerheader2 header_logo">
+                    <h1><a href="index.html">TO MAKE<em>LIGHT</em></a></h1>
+                </div>
+            </div>
+        </header>
+        <div class="form_wrapper">
+            <form action="./signup.html" method="get">
+                <div class="member">
+                    <div class="field">
+                        <b>아이디</b>
+                        <span><input type="text" id="id" name="id" placeholder="아이디" title="아이디"
+                                pattern="(?=.*\d)(?=.*[a-z|A-Z]).{4,10}" required>(영문/숫자1개이상, 4~10자)</span>
+                    </div>
+                    <div class="field">
+                        <b>비밀번호</b>
+                        <p><input type="password" id="pw" name="pw" placeholder="비밀번호" title="비밀번호"
+                                pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{4,12}" required>(영문대소문자/숫자1개이상, 4~12자)</p>
+                    </div>
+                    <div class="field">
+                        <b>비밀번호 재확인</b>
+                        <input type="password" id="re_pw" name="re_pw" placeholder="비밀번호 재확인" title="비밀번호 재확인"
+                            pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{4,12}" required>
+                    </div>
+                    <div class="field">
+                        <b>이름</b>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="field gender">
+                        <b>성별</b>
+                        <div>
+                            <label><input type="radio" name="gender" id="male" checked>남자</label>
+                            <label><input type="radio" name="gender" id="female">여자</label>
+                            <label><input type="radio" name="gender">선택안함</label>
+                        </div>
+                    </div>
+                    <div class="field email">
+                        <b>본인 확인 이메일<small>(선택)</small></b>
+                        <input type="email" name="email" placeholder="선택입력">
+                    </div>
+                    <div class="submit">
+                        <label><input type="submit" value="가입하기" class="submit_login"></label>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <footer>
+            <div class="member-footer">
+                <div>
+                    <a href="#">이용약관</a>
+                    <a href="#">개인정보처리방침</a>
+                    <a href="#">제작정보</a>
+                    <a href="#">고객센터</a>
+                </div>
+                <span><a href="index.html">TO MAKE LIGHT</a></span>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
